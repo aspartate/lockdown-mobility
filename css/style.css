@@ -1,71 +1,26 @@
 
 /* ADD YOUR STYLES HERE */
 
-h1 {
-  margin-top: 50px;
+body {
+  margin: 50px;
+  font-family: 'Raleway', sans-serif;
 }
 
 h3 {
-  color: dimgrey;
+  color: black;
   font-weight: normal;
-}
-
-button {
-  background-color: forestgreen;
-  border: none;
-  color: white;
-  padding: 10px;
-  margin: 20px 10px 5px 10px
-}
-
-.form-control {
-  width: 200px;
-}
-
-label {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.learn-more {
-  padding: 25px 15px 0px 15px;
-  font-size: x-large;
-}
-
-.detail_name {
-  padding: 10px;
   text-align: center;
 }
 
-.detail_table {
+.fig {
+  margin-bottom: 50px;
+}
+
+img {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
-  width: 100%;
-  font-size: 20px;
-}
-
-.details {
-  background-color: #beeac4;
-  padding: 25px;
-}
-
-tr {
-  border-bottom: 1px;
-  border-bottom-color: #b0b0b0;
-  border-bottom-style: solid;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.detail_content {
-  text-align: right;
-}
-
-.pad {
-  padding: 25px;
+  width: 20%;
 }
 
 /****************/
