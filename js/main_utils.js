@@ -114,7 +114,7 @@ function autocomplete(inp_id, arr) {
 
 // Dictionary of state populations
 let state_populations
-d3.csv("data/state_populations_processed.csv", d => {
+d3.csv("data/state_populations.csv", d => {
     d.population = +(d.population.replace(/,/g, ''))
     d.state = d.state.replace('.', '')
     return d

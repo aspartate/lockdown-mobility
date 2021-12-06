@@ -5,7 +5,7 @@ let fig1_lineplot, fig1_map, fig3_lineplot, fig3_violinplot, fig2_map, fig2_matr
 // Load all data into data array as promises
 let promises = [
 	d3.csv("data/state_dex_processed.csv"), // dex data
-	d3.csv('data/state_lockdowns_1.csv'), // lockdown dates
+	d3.csv('data/state_lockdowns.csv'), // lockdown dates
 	d3.csv("data/state_lex_processed.csv"), // lex data
 	d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json") // geo paths
 ]
