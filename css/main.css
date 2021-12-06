@@ -28,7 +28,7 @@ body {
 }
 
 #s1 {
-  background-image: url("/backgrounds/1.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/1.svg");
   background-size: cover;
   background-position-y: center;
   display: flex;
@@ -42,7 +42,7 @@ body {
 }
 
 #s2 {
-  background: linear-gradient( rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8) ), url('/backgrounds/2.png');
+  background: linear-gradient( rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8) ), url('https://aspartate.github.io/lockdown-mobility/backgrounds/2.png');
   background-size: 100% 120%;
   display: flex;
   align-items: center;
@@ -56,7 +56,7 @@ body {
 }
 
 #s3 {
-  background-image: url("/backgrounds/3.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/3.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -70,7 +70,7 @@ body {
 }
 
 #s4 {
-  background-image: url("/backgrounds/4.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/4.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -84,7 +84,7 @@ body {
 }
 
 #s5 {
-  background-image: url("/backgrounds/5.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/5.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -98,7 +98,7 @@ body {
 }
 
 #s6 {
-  background-image: url("/backgrounds/6.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/6.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -114,7 +114,7 @@ body {
 }
 
 #s7 {
-  background-image: url("/backgrounds/7.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/7.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -128,7 +128,7 @@ body {
 }
 
 #s8 {
-  background-image: url("/backgrounds/8.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/8.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -142,7 +142,7 @@ body {
 }
 
 #s9 {
-  background-image: url("/backgrounds/9.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/9.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -167,7 +167,7 @@ body {
 }
 
 #s11 {
-  background-image: url("/backgrounds/11.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/11.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -181,7 +181,7 @@ body {
 }
 
 #s12 {
-  background-image: url("/backgrounds/12.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/12.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -204,7 +204,7 @@ body {
 }
 
 #s14 {
-  background-image: url("/backgrounds/14.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/14.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -218,7 +218,7 @@ body {
 }
 
 #s15 {
-  background-image: url("/backgrounds/15.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/15.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -242,7 +242,7 @@ body {
 }
 
 #s17 {
-  background-image: url("/backgrounds/17.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/17.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
@@ -255,7 +255,7 @@ body {
 }
 
 #s18 {
-  background-image: url("/backgrounds/18.svg");
+  background-image: url("https://aspartate.github.io/lockdown-mobility/backgrounds/18.svg");
   background-size: 100% auto;
   background-position-y: bottom;
   display: flex;
