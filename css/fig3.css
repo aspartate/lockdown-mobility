@@ -1,14 +1,14 @@
 #selectbox {
     position: absolute;
-    margin-top:141px;
-    margin-left:29vw;
+    margin-top:71px;
+    margin-left:34vw;
     transform: translate(-100%, 0);
 }
 
 /* Automenu */
 #fig3_automenu_div {
     position: absolute;
-    margin-top:140px;
-    margin-left:41vw;
+    margin-top:70px;
+    margin-left:45vw;
     transform: translate(-100%, 0);
 }

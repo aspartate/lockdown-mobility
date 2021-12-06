@@ -16,10 +16,10 @@ class flowmapVis {
     initVis() {
         let vis = this
 
-        vis.margin = {top: 20, right: 40, bottom: 5, left: 20};
+        vis.margin = {top: 0, right: 100, bottom: 5, left: -100};
         vis.width = document.getElementById(vis.parentElement).getBoundingClientRect().width - vis.margin.left - vis.margin.right;
         console.log(`Fig2-Right Width: ${vis.width}`)
-        vis.height = window.innerHeight*0.8 - vis.margin.top - vis.margin.bottom;
+        vis.height = window.innerHeight*0.7 - vis.margin.top - vis.margin.bottom;
 
         vis.svg = d3.select(`#${vis.parentElement}`)
             .append("svg")

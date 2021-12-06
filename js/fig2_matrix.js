@@ -12,10 +12,10 @@ class matrixVis {
     initVis() {
         let vis = this
 
-        vis.margin = {top: 50, right: 20, bottom: 10, left: 150};
+        vis.margin = {top: 30, right: -100, bottom: 10, left: 200};
         vis.width = document.getElementById(vis.parentElement).getBoundingClientRect().width - vis.margin.left - vis.margin.right;
         console.log(`Fig2-Left Width: ${vis.width}`)
-        vis.height = window.innerHeight*0.8 - vis.margin.top - vis.margin.bottom;
+        vis.height = window.innerHeight*0.7 - vis.margin.top - vis.margin.bottom;
 
         vis.svg = d3.select(`#${vis.parentElement}`)
             .append("svg")
@@ -31,7 +31,7 @@ class matrixVis {
         })
 
         // Square size
-        vis.square_size = vis.height/50
+        vis.square_size = vis.height/54
 
         // Tooltip init
         vis.matrix_tooltip = d3.select('body').append("div")

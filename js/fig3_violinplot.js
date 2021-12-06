@@ -16,11 +16,11 @@ class ViolinPlot {
     initVis() {
         let vis = this;
 
-        vis.margin = {top: 100, right: 60, bottom: 20, left: 80};
+        vis.margin = {top: 30, right: 160, bottom: 20, left: 80};
 
         vis.width = document.getElementById(vis.parentElement).getBoundingClientRect().width - vis.margin.left - vis.margin.right;
         console.log(`Fig3-Right Width: ${vis.width}`)
-        vis.height = window.innerHeight*0.8 - vis.margin.top - vis.margin.bottom;
+        vis.height = window.innerHeight*0.7 - vis.margin.top - vis.margin.bottom;
 
 
         // SVG drawing area

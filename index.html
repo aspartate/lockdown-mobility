@@ -17,9 +17,141 @@
 <body>
 
 <div class="parent">
-    <section>
+    <section id="s1">
+        <div id="s1-div">
+            <h2 style="font-weight: bolder; font-size: 150px; color: #d76868;">LOCKDOWN</h2>
+            <h3 style="font-size: 50px">A story of human movement in the US during 2020</h3>
+        </div>
+    </section>
+
+    <section id="s2">
+        <div id="s2-div">
+            <h3 style="font-size: 45px">In January 2020, <span style="color: #d76868; font-weight: bold">COVID-19</span> began its march across the world, leaving a trail of devastation.</h3>
+        </div>
+    </section>
+
+    <section id="s3">
+        <div id="s3-div">
+            <h3 style="font-size: 45px">The United States was safe at first. But soon, the virus came knocking on its doors.</h3>
+        </div>
+    </section>
+
+    <section id="s4">
+        <div id="s4-div">
+            <h3 style="font-size: 45px">Eventually, most states in the US would issue lockdown orders. Some areas instituted stricter lockdowns than others, and some acted later or not at all. But...</h3>
+            <br>
+            <br>
+            <br>
+            <h2 style="font-weight: bolder; font-size: 60px">What were the actual effects of these public policies on human behavior?</h2>
+        </div>
+    </section>
+
+    <section id="s5">
+        <div id="s5-div">
+            <h3 style="font-size: 45px">
+                How closely did people adhere to lockdown guidelines, and if such guidelines were not present, did people change their behavior anyways?
+            </h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 style="font-weight: bolder; font-size: 60px">
+                If only there was some way to measure the movement of people over time...
+            </h2>
+        </div>
+    </section>
+
+    <section id="s6">
+        <div id="s6-div" class="col-4">
+            <h3 style="font-size: 45px">
+                Couture et al. compile 2 sets of smartphone movement data, showing both <span style="color: #d76868; font-weight: bold">intra-state</span> and <span style="color: #d76868; font-weight: bold">inter-state</span> mobility during the pandemic.
+            </h3>
+        </div>
+        <div class="col-8">
+        </div>
+    </section>
+
+    <section id="s7">
+        <div id="s7-div" class="row">
+            <div class="col-6" style="padding: 0px 100px">
+                <h3 style="font-size: 55px; font-weight: bold">
+                    DEX
+                </h3>
+                <h3 style="font-size: 45px">
+                    (Device Exposure Index)
+                </h3>
+                <h3 style="font-size: 45px">
+                    A measure of intra-state mobility
+                </h3>
+                <br><br><br><br>
+                <h3 style="font-size: 45px; color: #d76868">
+                    On average, how many devices does one device “meet” over the course of a day?
+                </h3>
+            </div>
+            <div class="col-6" style="padding: 0px 100px">
+                <h3 style="font-size: 55px; font-weight: bold">
+                    LEX
+                </h3>
+                <h3 style="font-size: 45px">
+                    (Location Exposure Index)
+                </h3>
+                <h3 style="font-size: 45px">
+                    A measure of inter-state mobility
+                </h3>
+                <br><br><br><br>
+                <h3 style="font-size: 45px; color: #d76868">
+                    What proportion of devices in Location A recently arrived from Location B in the past 14 days?
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="s8">
+        <div id="s8-div">
+            <h3 style="font-size: 45px">
+                Some caveats...
+            </h3>
+            <br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                DEX is limited to <span style="color: #d76868; font-weight: bold">“commercial venues”</span>, i.e. no hospitals, schools, churches, outdoor parks, etc. are represented
+            </h3>
+            <br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                Device mobility ≠ human mobility
+            </h3>
+            <h3 style="font-size: 45px; text-align: center;">
+                (people can move around without their phones!)
+            </h3>
+            <br><br><br><br>
+            <h3 style="font-size: 45px">
+                For more information, see full dataset <a href="https://github.com/COVIDExposureIndices/COVIDExposureIndices/tree/master/documentation" style="color: #d76868; font-weight: bold">here</a>
+            </h3>
+        </div>
+    </section>
+
+    <section id="s9">
+        <div id="s9-div">
+            <h3 style="font-size: 45px">
+                Nevertheless, DEX and LEX are a good approximation of intra− and inter-state mobility.
+            </h3>
+            <br><br><br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                Let’s take a look at the data!
+            </h3>
+            <h3 style="font-size: 45px; text-align: center;">
+                We’ll start with DEX.
+            </h3>
+        </div>
+    </section>
+
+    <section id="s10">
         <!--    Figure 1    -->
-        <div class="row">
+        <div class="row" id="s10-div">
+            <h3 style="font-size: 40px; padding-top: 50px; padding-left: 100px; text-align: center">
+                Drag the slider to see how <span style="color: #d76868; font-weight: bold">intra-state</span> mobility changed throughout 2020.
+            </h3>
             <div class="col-7">
                 <div id="fig1_lineplot" class="fig">
                     <div id="fig1_automenu_div">
@@ -37,10 +169,42 @@
         </div>
     </section>
 
+    <section id="s11">
+        <div id="s11-div">
+            <h3 style="font-size: 45px">
+                Evidently, people did change their behavior at the start of the pandemic.
+            </h3>
+            <br><br><br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center; font-weight: bold">
+                Within every state, movement dropped dramatically in mid-March.
+            </h3>
+            <br><br><br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                But what about <span style="color: #d76868; font-weight: bold">interstate</span> travel?
+            </h3>
+            <h3 style="font-size: 45px; text-align: center;">
+                Did that also change throughout the year?
+            </h3>
+        </div>
+    </section>
 
-    <section>
+    <section id="s12">
+        <div id="s12-div">
+            <h3 style="font-size: 45px; text-align: center;">
+                Let’s now take a look at mobility between states, or LEX.
+            </h3>
+        </div>
+    </section>
+
+    <section id="s13">
         <!--    Figure 2    -->
-        <div class="row">
+        <div class="row" id="s13-div">
+            <h3 style="font-size: 40px; padding-top: 50px; text-align: center">
+                Drag the slider to see how <span style="color: #d76868; font-weight: bold">inter-state</span> mobility changed throughout 2020.
+            </h3>
+            <h3 style="font-size: 40px; padding: 0px 200px 20px 200px; text-align: center">
+                Click on a state to see its top 10 connections (either arrivals or departures).
+            </h3>
             <div class="col-6">
                 <div id="fig2_matrix" class="fig"></div>
             </div>
@@ -50,10 +214,43 @@
         </div>
     </section>
 
+    <section id="s14">
+        <div id="s14-div">
+            <h3 style="font-size: 45px; text-align: center; ">
+                It is clear that interstate movement also dropped during the start of the pandemic.
+            </h3>
+            <br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center; font-weight: bold">
+                But were these movement patterns due to <span style="color: #d76868; font-weight: bold">lockdowns</span>?
+            </h3>
+            <h3 style="font-size: 45px; text-align: center; font-weight: bold">
+                Or did other factors influence people’s behavior?
+            </h3>
+        </div>
+    </section>
 
-    <section>
+    <section id="s15">
+        <div id="s15-div">
+            <h3 style="font-size: 45px; text-align: center;">
+                Let’s look at DEX in the context of lockdowns.
+            </h3>
+            <br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                Pay attention to the <span style="color: #d76868; font-weight: bold">temporal order</span> of lockdown versus mobility drop. Which comes first?
+            </h3>
+        </div>
+    </section>
+
+    <section id="s16">
         <!--    Figure 3    -->
-        <div class="row">
+        <div class="row" id="s16-div">
+            <h3 style="font-size: 40px; padding-top: 50px; padding-left: 100px; text-align: center">
+                Did lockdowns precede mobility drops, or vice versa?
+            </h3>
+            <h3 style="font-size: 40px; padding: 0px 200px 20px 200px; text-align: center">
+                Do you see any differences between states which implemented lockdowns and those which did not?
+            </h3>
             <div class="col-7">
                 <div id="fig3_lineplot" class="fig">
                     <div id="fig3_automenu_div">
@@ -80,13 +277,187 @@
         </div>
     </section>
 
+    <section id="s17">
+        <div id="s17-div">
+            <h3 style="font-size: 45px; text-align: center; ">
+                In states like <span style="color: #d76868; font-weight: bold">California</span>, DEX hits bottom just at the start of lockdown.
+            </h3>
+            <br><br><br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                But in other states such as <span style="color: #d76868; font-weight: bold">Alabama</span>, DEX hits bottom before the lockdown even starts. In fact, you’ll notice this pattern for most of the states in the <span style="color: #d76868; font-weight: bold">South</span>.
+            </h3>
+            <br><br><br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                Moreover, for states like <span style="color: #d76868; font-weight: bold">Utah</span>, DEX drops with no lockdown at all.
+            </h3>
+        </div>
+    </section>
 
-    <section>
+    <section id="s18">
+        <div id="s18-div">
+            <h3 style="font-size: 45px; text-align: center; ">
+                Go back to the previous figure and check out the <span style="color: #d76868; font-weight: bold">magnitude</span> distribution of the March mobility drop.
+            </h3>
+            <br><br><br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                The distributions between <span style="color: #d76868; font-weight: bold">Lockdown</span> and <span style="color: #d76868; font-weight: bold">No Lockdown</span> states (if you ignore outliers such as Nevada) are pretty similar!
+            </h3>
+        </div>
+    </section>
+
+
+    <section id="s19">
         <!--    Figure 4    -->
-        <div class="row">
+        <div class="row" id="s19-div">
+            <h3 style="font-size: 40px; padding-top: 50px; padding-left: 100px; text-align: center">
+                Let’s take a closer look at <span style="color: #d76868; font-weight: bold">Nevada</span>, the state with the largest mobility drop.
+            </h3>
+            <h3 style="font-size: 35px; padding: 0px 200px 20px 200px; text-align: center">
+                Here, we’ve added a timeline with more information about the state’s response to COVID.
+            </h3>
             <div id="fig4_lineplot" class="fig"></div>
         </div>
     </section>
+
+    <section id="s20">
+        <div id="s20-div">
+            <h3 style="font-size: 45px; text-align: center; ">
+                It turns out that, prior to the official lockdown, there were many events which hinted at the severity of the pandemic.
+            </h3>
+            <br><br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                In fact, this holds true for <span style="color: #d76868; font-weight: bold">all states</span>.
+            </h3>
+            <h3 style="font-size: 45px; text-align: center;">
+                Lockdowns were often preceded by emergency declarations, school and business closures, and public health announcements.
+            </h3>
+            <br><br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center; font-weight: bold">
+                So did lockdowns make a difference?
+            </h3>
+        </div>
+    </section>
+
+    <section id="s21">
+        <div id="s21-div">
+            <h3 style="font-size: 45px; text-align: center; ">
+                Lockdowns were just <span style="color: #d76868; font-weight: bold">one</span> of many factors which influenced people’s behavior during the pandemic.
+            </h3>
+            <br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                Were they the most important factor? <span style="color: #d76868; font-weight: bold">Probably not.</span>
+            </h3>
+            <br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                You may have noticed that mobility started increasing for most states right after the initial drop.
+            </h3>
+            <h3 style="font-size: 45px; text-align: center;">
+                By December, mobility in many states (<span style="color: #d76868; font-weight: bold">regardless of lockdown status</span>) were back at their February levels.
+            </h3>
+        </div>
+    </section>
+
+    <section id="s22">
+        <div id="s22-div">
+            <h3 style="font-size: 45px; text-align: center; ">
+                It seems fair to conclude that depending on lockdowns alone is not enough.
+            </h3>
+            <br><br><br><br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: center;">
+                Effectively controlling the pandemic requires a combination of factors, such as <span style="color: #d76868; font-weight: bold">public health messaging</span>, <span style="color: #d76868; font-weight: bold">targeted legislative intervention</span>, <span style="color: #d76868; font-weight: bold">rapid testing</span>, and <span style="color: #d76868; font-weight: bold">vaccination</span>.
+        </div>
+    </section>
+
+    <section id="s23">
+        <div id="s23-div">
+            <h2 style="font-size: 60px; text-align: center; font-weight: bold">
+                Our Team
+            </h2>
+            <br><br><br>
+            <div class="row">
+                <div class="col-4"><img style="width: 60%; margin-left:20%;" src="images/angel.jpg"></div>
+                <div class="col-4"><img style="width: 60%; margin-left:20%;" src="images/jimmy.jpg"></div>
+                <div class="col-4"><img style="width: 60%; margin-left:20%;" src="images/andrew.png"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-4">
+                    <h3 style="font-size: 30px; text-align: center; font-weight: bold">
+                        Angel Hsu
+                    </h3>
+                    <h3 style="font-size: 30px; text-align: center;">
+                        Harvard SEAS
+                    </h3>
+                    <h3 style="font-size: 30px; text-align: center;">
+                        Data Science
+                    </h3>
+                </div>
+                <div class="col-4">
+                    <h3 style="font-size: 30px; text-align: center; font-weight: bold">
+                        Jimmy Young
+                    </h3>
+                    <h3 style="font-size: 30px; text-align: center;">
+                        Harvard College
+                    </h3>
+                    <h3 style="font-size: 30px; text-align: center;">
+                        Biomedical Engineering
+                    </h3>
+                </div>
+                <div class="col-4">
+                    <h3 style="font-size: 30px; text-align: center; font-weight: bold">
+                        Andrew Zhang
+                    </h3>
+                    <h3 style="font-size: 30px; text-align: center;">
+                        Harvard College
+                    </h3>
+                    <h3 style="font-size: 30px; text-align: center;">
+                        Biology & CS
+                    </h3>
+                    <h3 style="font-size: 30px; text-align: center;">
+                        Team Lead
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="s24">
+        <div id="s24-div">
+            <h2 style="font-size: 60px; text-align: center; font-weight: bold">
+                Sources
+            </h2>
+            <br><br><br><br><br>
+            <h3 style="font-size: 45px; text-align: left;">
+                Mobility Data: <a href="https://github.com/COVIDExposureIndices/COVIDExposureIndices/tree/master/documentation" style="color: #d76868; font-weight: bold">COVIDExposureIndices (GitHub)</a>
+            </h3>
+            <br><br>
+            <h3 style="font-size: 45px; text-align: left;">
+                US COVID Timeline: <a href="https://www.ajmc.com/view/a-timeline-of-covid19-developments-in-2020" style="color: #d76868; font-weight: bold">American Journal of Managed Care</a>
+            </h3>
+            <br><br>
+            <h3 style="font-size: 45px; text-align: left;">
+                State Lockdown Dates: <a href="https://www.nbcnews.com/health/health-news/here-are-stay-home-orders-across-country-n1168736" style="color: #d76868; font-weight: bold">NBC News</a>
+            </h3>
+            <br><br>
+            <h3 style="font-size: 45px">
+                Nevada COVID Timeline: <a href="https://www.ktnv.com/news/coronavirus/timeline-for-coronavirus-pandemic-in-nevada" style="color: #d76868; font-weight: bold">KTNV News</a>
+            </h3>
+            <br><br>
+            <h3 style="font-size: 45px">
+                Website Documentation: <a href="https://docs.google.com/document/d/1zaSy837_oBmRkFeu0_GBk_9hskaYWdSc4a4QbgZzOJc/edit#" style="color: #d76868; font-weight: bold">Process Book</a>
+            </h3>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
 </div>
 
 

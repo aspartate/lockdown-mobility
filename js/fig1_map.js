@@ -18,7 +18,7 @@ class MapVis {
     initVis() {
         let vis = this
 
-        vis.margin = {top: 20, right: 40, bottom: 20, left: 0};
+        vis.margin = {top: 20, right: 100, bottom: 20, left: -100};
         vis.width = document.getElementById(vis.parentElement).getBoundingClientRect().width - vis.margin.left - vis.margin.right;
         console.log(`Fig1-Right Width: ${vis.width}`)
         vis.height = window.innerHeight*0.8 - vis.margin.top - vis.margin.bottom;
@@ -58,7 +58,7 @@ class MapVis {
         // Simple slider from https://bl.ocks.org/johnwalley/e1d256b81e51da68f7feb632a53c3518
         vis.sliderTime = vis.svg.append('text')
             .attr('x', 70)
-            .attr('y', 107)
+            .attr('y', 27)
             .style('fill', 'white')
             .style('font-family', 'Roboto Slab')
 
@@ -82,7 +82,7 @@ class MapVis {
 
         vis.gTime = vis.svg
             .append('g')
-            .attr('transform', 'translate(200,100)');
+            .attr('transform', 'translate(200,20)');
 
         vis.gTime.call(vis.slider);
         // Initialize date
@@ -129,7 +129,7 @@ class MapVis {
         //Color Legend container
         vis.legendsvg = vis.svg.append("g")
             .attr("class", "legendWrapper")
-            .attr('transform', `translate(${vis.width/2}, ${vis.height - 50})`)
+            .attr('transform', `translate(${vis.width/2}, ${vis.height - 30})`)
 
         //Draw the Rectangle
         vis.legendsvg.append("rect")

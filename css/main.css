@@ -2,7 +2,6 @@
 /* ADD YOUR STYLES HERE */
 
 body {
-  font-family: 'Raleway', sans-serif;
   background-color: #1f1f1f;
   color: white;
   height: 100vh;
@@ -28,10 +27,297 @@ body {
   position: relative;
 }
 
-/*img {*/
-/*  display: block;*/
-/*  margin-left: auto;*/
-/*  margin-right: auto;*/
-/*  width: border-box;*/
-/*  height: fit-content;*/
-/*}*/
+#s1 {
+  background-image: url("/backgrounds/1.svg");
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#s1-div {
+  font-family: 'Roboto Slab';
+  text-align: center;
+}
+
+#s2 {
+  background: linear-gradient( rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8) ), url('/backgrounds/2.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#s2-div {
+  margin: 70px 100px;
+  font-family: 'Roboto Slab';
+  text-align: center;
+}
+
+#s3 {
+  background-image: url("/backgrounds/3.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+#s3-div {
+  margin: 70px 100px;
+  font-family: 'Roboto Slab';
+  text-align: center;
+}
+
+#s4 {
+  background-image: url("/backgrounds/4.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+#s4-div {
+  margin: 100px 150px;
+  font-family: 'Roboto Slab';
+  text-align: center;
+}
+
+#s5 {
+  background-image: url("/backgrounds/5.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+#s5-div {
+  margin: 100px 150px;
+  font-family: 'Roboto Slab';
+  text-align: center;
+}
+
+#s6 {
+  background-image: url("/backgrounds/6.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+#s6-div {
+  margin: 200px;
+  padding-left: 150px;
+  width: 500px;
+  font-family: 'Roboto Slab';
+  text-align: left;
+}
+
+#s7 {
+  background-image: url("/backgrounds/7.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+#s7-div {
+  margin: 200px;
+  font-family: 'Roboto Slab';
+  text-align: center;
+}
+
+#s8 {
+  background-image: url("/backgrounds/8.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+#s8-div {
+  margin: 150px 200px;
+  font-family: 'Roboto Slab';
+  text-align: left;
+}
+
+#s9 {
+  background-image: url("/backgrounds/9.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+#s9-div {
+  margin: 150px 200px;
+  font-family: 'Roboto Slab';
+  text-align: left;
+}
+
+#s10 {
+  display: flex;
+  justify-content: center;
+}
+
+#s10-div {
+  font-family: 'Roboto Slab';
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+#s11 {
+  background-image: url("/backgrounds/11.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+#s11-div {
+  margin: 150px 200px;
+  font-family: 'Roboto Slab';
+  text-align: left;
+}
+
+#s12 {
+  background-image: url("/backgrounds/12.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#s12-div {
+  margin: 150px 200px;
+  font-family: 'Roboto Slab';
+  text-align: left;
+}
+
+#s13 {
+  /*display: flex;*/
+}
+
+#s13-div {
+  font-family: 'Roboto Slab';
+}
+
+#s14 {
+  background-image: url("/backgrounds/14.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+#s14-div {
+  margin: 150px 200px;
+  font-family: 'Roboto Slab';
+  text-align: left;
+}
+
+#s15 {
+  background-image: url("/backgrounds/15.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#s15-div {
+  margin: 150px 200px;
+  font-family: 'Roboto Slab';
+}
+
+#s16 {
+  /*display: flex;*/
+  justify-content: center;
+}
+
+#s16-div {
+  font-family: 'Roboto Slab';
+  text-align: left;
+}
+
+#s17 {
+  background-image: url("/backgrounds/17.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+#s17-div {
+  margin: 150px 200px;
+  font-family: 'Roboto Slab';
+}
+
+#s18 {
+  background-image: url("/backgrounds/18.svg");
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+#s18-div {
+  margin: 200px 300px;
+  font-family: 'Roboto Slab';
+}
+
+#s19 {
+  /*display: flex;*/
+  justify-content: center;
+}
+
+#s19-div {
+  font-family: 'Roboto Slab';
+  text-align: left;
+}
+
+#s20 {
+  justify-content: center;
+}
+
+#s20-div {
+  margin: 150px 200px;
+  font-family: 'Roboto Slab';
+}
+
+#s21 {
+  justify-content: center;
+}
+
+#s21-div {
+  margin: 150px 200px;
+  font-family: 'Roboto Slab';
+}
+
+#s22 {
+  justify-content: center;
+}
+
+#s22-div {
+  margin: 200px 200px;
+  font-family: 'Roboto Slab';
+}
+
+#s23 {
+  justify-content: center;
+}
+
+#s23-div {
+  margin: 150px 200px;
+  font-family: 'Roboto Slab';
+}
+
+#s24 {
+  justify-content: center;
+}
+
+#s24-div {
+  margin: 120px 300px;
+  font-family: 'Roboto Slab';
+}
