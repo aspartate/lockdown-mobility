@@ -5,8 +5,8 @@
 
 ---
 Link to project website: https://aspartate.github.io/lockdown-mobility/
-
-Link to screencast video: 
+Link to screencast video: https://youtu.be/VPgkSJF24JQ
+Link to process book: https://docs.google.com/document/d/1zaSy837_oBmRkFeu0_GBk_9hskaYWdSc4a4QbgZzOJc/edit#heading=h.87xhwgz7bayx
 
 - Files:
   - backgrounds/
@@ -37,7 +37,7 @@ Link to screencast video:
     - fig4_utils.js; utility functions for fig.4
     - fig4_lineplot.js; contains class for lineplot & timeline, fig.4
   - preprocessing/
-    - dex_data_prep.ipynb; Python notebook for preprocessing DEX data
+    - dex_data_prep.ipynb; Python notebook for preprocessing DEX data (adding in 7-day moving average)
     - lex_data_prep.ipynb; Python notebook for preprocessing LEX data
     - state_dex.csv; raw DEX data
     - state_lex_raw.zip; raw LEX data
