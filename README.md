@@ -5,7 +5,9 @@
 
 ---
 Link to project website: https://aspartate.github.io/lockdown-mobility/
+
 Link to screencast video: https://youtu.be/VPgkSJF24JQ
+
 Link to process book: https://docs.google.com/document/d/1zaSy837_oBmRkFeu0_GBk_9hskaYWdSc4a4QbgZzOJc/edit#heading=h.87xhwgz7bayx
 
 - Files:
