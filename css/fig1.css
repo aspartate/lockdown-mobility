@@ -12,7 +12,8 @@
 #fig1_automenu_div {
     position: absolute;
     margin-top:140px;
-    margin-left: 440px;
+    margin-left:35vw;
+    transform: translate(-100%, 0);
 }
 
 .handle {
