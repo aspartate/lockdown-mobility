@@ -21,7 +21,7 @@ class MapVis {
         vis.margin = {top: 20, right: 40, bottom: 20, left: 0};
         vis.width = document.getElementById(vis.parentElement).getBoundingClientRect().width - vis.margin.left - vis.margin.right;
         console.log(`Fig1-Right Width: ${vis.width}`)
-        vis.height = 720 - vis.margin.top - vis.margin.bottom;
+        vis.height = window.innerHeight*0.8 - vis.margin.top - vis.margin.bottom;
 
         // init drawing area
         vis.svg = d3.select("#" + vis.parentElement).append("svg")

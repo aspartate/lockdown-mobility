@@ -21,7 +21,7 @@ class LinePlotAll {
         vis.margin = {top: 100, right: 60, bottom: 20, left: 80};
         vis.width = document.getElementById(vis.parentElement).getBoundingClientRect().width - vis.margin.left - vis.margin.right;
         console.log(`Fig1-Left Width: ${vis.width}`)
-        vis.height = 700 - vis.margin.top - vis.margin.bottom;
+        vis.height = window.innerHeight*0.8 - vis.margin.top - vis.margin.bottom;
 
 
         // SVG drawing area
